@@ -5,7 +5,7 @@ This project is a web-based automation system designed to streamline the SIM reg
 
 The system simulates customer verification workflows and compares manual (traditional) registration with an automated (streamlined) process using Average Handling Time (AHT) metrics, visualized through interactive dashboards.
 
----
+
 
 ## 🛠️ Tech Stack
 - Backend / App Framework: Python, Streamlit
@@ -14,7 +14,7 @@ The system simulates customer verification workflows and compares manual (tradit
 - Data Generation: Faker
 - Storage: CSV (simulated database input)
 
----
+
 
 ## ⚙️ Core Features
 - Individual SIM registration via web form
@@ -25,7 +25,7 @@ The system simulates customer verification workflows and compares manual (tradit
 - Interactive dashboards for performance monitoring
 - Error handling for missing or invalid records
 
----
+
 
 ## 🔄 Data Generation
 Synthetic customer data was generated using the Faker library (`en_NG` locale) to simulate realistic Nigerian SIM registration records.
@@ -45,7 +45,7 @@ The raw dataset is saved as:
 sim_registration_raw
 
 
----
+
 
 ## 🔄 ETL Pipeline
 1. Extract  
@@ -57,7 +57,7 @@ sim_registration_raw
 3. Load  
    - Cleaned data is used to validate individual and bulk SIM registration workflows
 
----
+
 
 ## 📊 Performance Analysis (AHT)
 The application measures and compares:
@@ -70,7 +70,7 @@ The application measures and compares:
 
 Results consistently show that the automated process significantly outperforms manual registration in speed and scalability.
 
----
+
 
 ## 📈 Business Impact
 - Reduces SIM registration processing time
@@ -79,7 +79,6 @@ Results consistently show that the automated process significantly outperforms m
 - Increases registration throughput without increasing workforce size
 - Reduces manpower and operational costs for telecom operators
 
----
 
 ## 🔮 Future Improvements
 - Integrate real-time or near–real-time data ingestion pipelines
