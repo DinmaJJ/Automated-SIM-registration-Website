@@ -5,7 +5,8 @@ This project is a web-based automation system designed to streamline the SIM reg
 
 The system simulates customer verification workflows and compares manual (traditional) registration with an automated (streamlined) process using Average Handling Time (AHT) metrics, visualized through interactive dashboards.
 
-
+To see the project in full swing click the link below:
+https://automated-sim-registration-website-llbxzsmi8ya8rpgjbuweyd.streamlit.app/
 
 ## 🛠️ Tech Stack
 - Backend / App Framework: Python, Streamlit
